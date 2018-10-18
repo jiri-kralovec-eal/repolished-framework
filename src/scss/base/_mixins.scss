@@ -1,0 +1,45 @@
+// Uses mobile first approach
+@mixin breakpoint($rule) {
+    @if $rule == 'md' {
+        @media only screen and (min-width: $breakpoint-md) {
+            @content ;
+        }
+    }
+    @else if $rule == 'lg' {
+        @media only screen and (min-width: $breakpoint-lg) {
+            @content ;
+        }
+    }
+    @else if $rule == 'hd' {
+        @media only screen and (min-width: $breakpoint-hd) {
+            @content ;
+        }
+    }
+}
+
+@mixin grid($prefix) {
+    @for $i from 1 through $grid-columns {
+        .col-#{$prefix}-#{$i} {
+            position: relative;
+            display: initial;
+            order: 0;
+
+            width: $i * (100% / $grid-columns);
+            max-width: $i * (100% / $grid-columns);
+            min-width: $i * (100% / $grid-columns);
+            margin-left: 0;
+        }
+        .offset-#{$prefix}-#{$i}{
+            margin-left: $i * (100% / $grid-columns);
+        }
+    }
+    .#{$prefix}-hidden {
+        display: none;
+    }
+    .#{$prefix}-first {
+        order: -1;
+    }
+    .#{$prefix}-last {
+        order: 999;
+    }
+}

@@ -1,0 +1,24 @@
+// Grid
+$grid-columns: 12;
+$grid-gutter: 8px;
+
+// Breakpoints
+// Mobile-first approach
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-hd: 1680px;
+
+// Colours
+$c-primary: #fff;
+$c-secondary: #fff;
+
+// Fonts and Font sizes
+$f-primary: sans-serif;
+$f-secondary: serif;
+$f-icons-light: 'Font Awesome 5 Light';
+$f-icons-reg: 'Font Awesome 5 Regular';
+
+$fs-tiny: 11px;
+$fs-regular: 13px;
+$fs-medium: 15px;
+$fs-large: 17px;

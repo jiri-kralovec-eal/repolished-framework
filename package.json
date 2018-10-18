@@ -1,0 +1,31 @@
+{
+  "name": "givskud-zoo",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "",
+    "gulp-concat": "",
+    "gulp-replace": "",
+    "gulp-sass": "",
+    "gulp-sourcemaps": "",
+    "gulp-uglify": "",
+    "gulp-util": "",
+    "gulp-rename": ""
+  },
+  "author": "Jiri Kralovec <jiri0042@edu.eal.dk>",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {},
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiri-kralovec-eal/givskud-zoo-case.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiri-kralovec-eal/givskud-zoo-case/issues"
+  },
+  "homepage": "https://github.com/jiri-kralovec-eal/givskud-zoo-case#readme"
+}

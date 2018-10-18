@@ -1,0 +1,1 @@
+Controllers are child elements for modules, providing functionalities to modules

@@ -1,0 +1,1 @@
+Modules are 'containers' for different part of application.
