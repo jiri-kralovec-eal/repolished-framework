@@ -1,5 +1,5 @@
 {
-  "name": "givskud-zoo",
+  "name": "repolished-framework",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "dependencies": {
@@ -22,10 +22,10 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jiri-kralovec-eal/givskud-zoo-case.git"
+    "url": "git+https://github.com/jiri-kralovec-eal/repolished-framework.git"
   },
   "bugs": {
-    "url": "https://github.com/jiri-kralovec-eal/givskud-zoo-case/issues"
+    "url": "https://github.com/jiri-kralovec-eal/repolished-framework/issues"
   },
-  "homepage": "https://github.com/jiri-kralovec-eal/givskud-zoo-case#readme"
+  "homepage": "https://github.com/jiri-kralovec-eal/repolished-framework#readme"
 }
